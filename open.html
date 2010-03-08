@@ -15,7 +15,7 @@ html {
 }
 body {
     height:100%;
-    background: url(pushed.png) white no-repeat fixed bottom right;
+    background: url(open.png) white no-repeat fixed bottom right;
     color: #333333;
     font-size:12px;
     font-family:"Lucida Grande", "Verdana", "sans-serif";
@@ -86,7 +86,7 @@ if ( window.addEventListener ) {
     window.addEventListener("keydown", function(e){
         kkeys.push( e.keyCode );
         if ( kkeys.toString().indexOf( konami ) >= 0 ) {
-            window.location = window.location+"/../wicked.html";
+            window.location = "http://codeschmie.de";
         }
     }, true);
 }
