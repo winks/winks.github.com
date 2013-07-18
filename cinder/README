@@ -1,0 +1,11 @@
+The Cinder eclipse update site
+------------------------------
+
+This is the result of building the feature and site targets for cinder.
+
+Cinder is an eclipse plugin to display build results from your Continuous
+Integration server.
+
+The Cinder website is located at http://winks.github.io/cinder
+
+The Cinder repository is located at http://github.com/winks/cinder
